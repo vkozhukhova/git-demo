@@ -2,3 +2,6 @@ my new git song
 it's so beautiful
 my new line
 they are very short
+
+I will add two more lines
+This is sixth line of the song
