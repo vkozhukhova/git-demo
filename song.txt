@@ -8,3 +8,5 @@ This is sixth line of the song
 bla
 bla
 ------------------------
+
+add third part
