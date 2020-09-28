@@ -4,8 +4,8 @@ pipeline {
     stages {
         stage("Copy all to my dir") {
             steps {
-                sh 'mkdir /var/jenkins_home/jentestdir/'
-                sh 'cp README.md /var/jenkins_home/jentestdir/'
+                sh 'rm -r /var/jenkins_home/jentestdir/*'
+                sh 'cp ./* /var/jenkins_home/jentestdir/'
             }
         }
     }
